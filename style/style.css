@@ -1,0 +1,69 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(173, 172, 168);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.calender {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal-sec {
+  height: 400px;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  /* border: 2px solid red;*/
+}
+
+.dates-sec {
+  background-color: rgb(36, 35, 41);
+  /*border: 2px solid aqua;*/
+}
+
+.week-sec {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.wd {
+  padding-top: 15px;
+  color: orangered;
+  text-align: center;
+}
+
+.week-dates-num {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.wdn {
+  padding-top: 10px;
+  color: rgb(186, 186, 188);
+  text-align: center;
+}
+.date-sec {
+  background-color: rgb(231, 101, 65);
+}
+.week-sec-date {
+  padding-top: 15px;
+  color: rgb(238, 238, 230);
+  font-size: 70px;
+  text-align: center;
+}
+.date-sec h5 {
+  color: black;
+  text-align: center;
+  font-size: medium;
+  font-weight: lighter;
+}
+.date-sec p {
+  color: black;
+  text-align: center;
+  font-size: medium;
+  font-weight: lighter;
+}
